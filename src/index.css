@@ -7,9 +7,15 @@ body {
 
     background-color: black;
     color: wheat;
+
 }
 
 code {
  font-family: 'Inconsolata',
  monospace;
+}
+
+
+div {
+  padding: 0;
 }
