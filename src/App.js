@@ -11,7 +11,7 @@ function App() {
 			<NameCard> </NameCard>
 			<Sidebar> </Sidebar>
 			<div className="right-sidebar">
-				<h1> testing change 2</h1>
+				<h1> testing change number 333 </h1>
 				<Projects />
 				<PastExp />
 			</div>
