@@ -1,8 +1,21 @@
+.app-container {
+  display: grid;
+/* grid-template-columns: 20px auto 20%; */
+grid-template-rows: 20px 30% 20%;
+border: blue solid 2px;
+columns: yellow solid 2px;
+grid-row: yellow solid 2px;
+
+}
+
+
+
 .name-card {
   align-content: center;
   width: 90%;
   /* padding-top: 3%; */
   transition: all .2s ease-in-out;
+  border: red solid 2px;
   }
 
 /* .name-card:hover {
@@ -82,19 +95,21 @@ h3 {
   font-size: smaller;
 }
 
-div {
-  padding: 0;
-}
-
-.sidebar {
+.sidebarIcon {
   position: fixed;
   z-index: 1;
+   border: white 2px solid;
+   height: 30px;
+   width: 30px;
 }
 
 .right-sidebar {
+  /* position: relative; */
   display: flex;
-  flex-direction: row-reverse; 
-  padding-top: 15%;
+  flex-wrap: wrap;
+  align-self: flex-start;
+  /* justify-content: flex-end; */
+  /* padding-top: 15%; */
 }
 
 .projects, .past-exp {

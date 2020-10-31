@@ -4,7 +4,7 @@ import sidebarIcon from '../utils/SidebarIcon';
 function Sidebar() {
 	return (
 		<div className="sidebar">
-			<sidebarIcon />
+			<sidebarIcon className="sidebarIcon" />
 		</div>
 	);
 }

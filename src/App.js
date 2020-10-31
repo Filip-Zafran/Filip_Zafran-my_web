@@ -7,10 +7,11 @@ import PastExp from '../src/components/PastExp';
 
 function App() {
 	return (
-		<div>
+		<div className="app-container">
 			<NameCard> </NameCard>
 			<Sidebar> </Sidebar>
 			<div className="right-sidebar">
+				<h1> testing</h1>
 				<Projects />
 				<PastExp />
 			</div>
